@@ -1,0 +1,76 @@
+body{
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+}
+ 
+#login_box {
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	width:26em;
+	height:16em;
+	margin-top: -8em; /*set to a negative number 1/2 of your height*/
+	margin-left: -13em; /*set to a negative number 1/2 of your width*/
+	border: 1px solid #7F5F00;
+	background-color: #fdfdfd;
+}
+
+h1{
+	background-color:#4ac033;
+	border-bottom:1px solid #7F5F00;
+	font-size:120%;
+	font-weight:bolder;
+	color:#ffffff;	
+	padding-top:1em;
+	padding-bottom:1em;
+	margin:0; 
+	text-align:center;
+}
+
+#login_form{
+	padding:20px;
+}
+
+#login_form p label{
+	display:block;
+	float:left;
+	width:80px;
+	padding-left:20px;
+}
+
+#login_form p{
+	margin-bottom:10px;
+}
+
+
+#submit{
+	width:auto;
+	margin-left:100px;
+	padding:3px 4px 3px 4px;
+	color:white;
+	background-color:#589d39;
+	outline:none;
+	border:1px solid #006600;
+	font-weight:normal;
+}
+
+#login_box .field_error, #login_box #message{
+	font-size:12px;
+	color:#F00;
+}
+
+#login_box #form_error_message{
+	margin-bottom:20px;
+}
+
+#login_box .field_error{
+	clear:both;
+	margin-left:80px;
+}
+
+.form_field{
+	border:#666 solid 1px;
+}
+
+.form_field:focus{
+	background-color:#c5f9bb;
+}
